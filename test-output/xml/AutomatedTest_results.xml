@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AutomatedTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32,206">
+    <properties></properties>
+
+
+
+            <testcase
+                name="myFirstTest"
+                time="32,206"
+                classname="AutomatedTest">
+            </testcase>
+</testsuite>
