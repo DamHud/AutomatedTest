@@ -56,8 +56,6 @@ public class AutomatedTest {
         driver.findElement(By.cssSelector("div[data-tooltip=\"Send \u202A(Ctrl-Enter)\u202C\"]")).click();
         
         Thread.sleep(5000);
-
-
     }
 
     @AfterMethod
