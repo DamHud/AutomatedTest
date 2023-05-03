@@ -31,7 +31,7 @@ public class AutomatedTest {
 
         driver.findElement(By.id("identifierId")).sendKeys("automatedtest699@gmail.com");
 
-        driver.findElement(By.id("identifierId")).click();
+        driver.findElement(By.id("identifierNext")).click();
 
         driver.findElement(By.name("Passwd")).click();
 
