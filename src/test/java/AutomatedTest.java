@@ -31,13 +31,13 @@ public class AutomatedTest {
 
         driver.findElement(By.id("identifierId")).sendKeys("automatedtest699@gmail.com");
 
-        driver.findElement(By.xpath("//span[contains(text(),'Next')]")).click();
+        driver.findElement(By.id("identifierId")).click();
 
         driver.findElement(By.name("Passwd")).click();
 
         driver.findElement(By.name("Passwd")).sendKeys("mypassword123!?");
 
-        driver.findElement(By.xpath("//span[contains(text(),'Next')]")).click();
+        driver.findElement(By.id("passwordNext")).click();
 
         driver.findElement(By.cssSelector("div.T-I.T-I-KE.L3")).click();
 
@@ -45,9 +45,9 @@ public class AutomatedTest {
 
         driver.findElement(By.cssSelector("div[role=presentation] input")).sendKeys("automatedtest699@gmail.com");
 
-        driver.findElement(By.xpath("(.//*[@aria-label='Message Body'])[2]")).click();
+        driver.findElement(By.cssSelector("div[role=textbox]")).click();
 
-        driver.findElement(By.xpath("(.//*[@aria-label='Message Body'])[2]")).sendKeys("This is an auto-generated mail");
+        driver.findElement(By.cssSelector("div[role=textbox]")).sendKeys("This is an auto-generated mail");
 
         driver.findElement(By.name("subjectbox")).click();
 
@@ -55,7 +55,7 @@ public class AutomatedTest {
 
         driver.findElement(By.cssSelector("div[data-tooltip=\"Send \u202A(Ctrl-Enter)\u202C\"]")).click();
         
-        Thread.sleep(5000);
+        Thread.sleep(7000);
     }
 
     @AfterMethod
