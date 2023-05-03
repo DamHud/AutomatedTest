@@ -10,6 +10,8 @@ Test was created using tools:
 e-mail adress: automatedtest699@gmail.com
 password: mypassword123!?
 
+I made a test with English (US) language version of gmail.com
+
 To launch test use AutomatedTest.java
 
 Reports are made in catalog C:\...\AutomatedTest\test-output\xml as a file AutomatedTest_results.xml
