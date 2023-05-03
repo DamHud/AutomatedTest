@@ -41,7 +41,7 @@ public class AutomatedTest {
 
         driver.findElement(By.cssSelector("div.T-I.T-I-KE.L3")).click();
 
-        Thread.sleep(5000);
+        Thread.sleep(7000);
 
         driver.findElement(By.cssSelector("div[role=presentation] input")).sendKeys("automatedtest699@gmail.com");
 
