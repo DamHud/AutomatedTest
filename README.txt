@@ -1,5 +1,7 @@
 Test was created using tools:
 
+- jdk20
+- ChromeDriver 112.0.5615.49
 - selenium-java 4.9.0
 - maven 20
 - testng 7.7.1
